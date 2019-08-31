@@ -1,5 +1,5 @@
 if(process.env.NODE_ENV !== 'production'){
-    require('dotenv').cofig();
+    require('dotenv').config();
 }
 
 const DARKSKY_API_KEY = process.env.DARKSKY_API_KEY;
