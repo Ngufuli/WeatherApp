@@ -13,6 +13,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 app.post('/weather', (req, res)=>{
+    //api 
     const url = `https://api.darksky.net/forecast/${DARKSKY_API_KEY}/${req.body.latitude},${req.body.longitude}?units=auto`
     //
     // console.log(req.body);  < - - - - - - debuggin purpose
