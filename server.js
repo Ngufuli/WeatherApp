@@ -10,6 +10,7 @@ const axios = require('axios');
 const app = express();
 
 app.use(express.json());
+//public html files
 app.use(express.static('public'));
 
 app.post('/weather', (req, res)=>{
