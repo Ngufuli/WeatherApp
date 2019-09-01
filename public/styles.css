@@ -79,3 +79,10 @@ body {
     flex-grow: 1;
     padding: 20px;
 }
+
+.detail .title {
+    font-size: 2rem;
+    flex-grow: 1;
+    font-weight: bold;
+    color: #777;
+}
