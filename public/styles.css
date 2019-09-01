@@ -86,3 +86,8 @@ body {
     font-weight: bold;
     color: #777;
 }
+
+.detail .value {
+    font-size: 2rem;
+    margin-top: 20px;
+}
