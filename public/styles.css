@@ -57,3 +57,14 @@ body {
     font-size: 3rem;
     font-weight: bold;
 }
+
+.location {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 10px;
+
+}
+
+.detail-section {
+    display: inline;
+}
