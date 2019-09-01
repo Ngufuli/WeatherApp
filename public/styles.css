@@ -70,3 +70,10 @@ body {
     justify-content: space-between;
     margin-top: 40px;
 }
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 0;
+}
